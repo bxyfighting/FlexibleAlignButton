@@ -1,6 +1,6 @@
 {
   "name": "FlexibleAlignButton",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "summary": "Flexible align button",
   "description": "TODO: Flexible align button.",
   "homepage": "https://github.com/bxyfighting/FlexibleAlignButton.git",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/bxyfighting/FlexibleAlignButton.git",
-    "tag": "0.1.1"
+    "tag": "0.1.0"
   },
   "source_files": "FlexibleAlignButton/Classes/**/*.{h,m}",
   "public_header_files": "FlexibleAlignButton/Classes/**/*.{h}",
