@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033D3E89FDA15A5A3AD9EFEA72445AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		298182AA6D0C499A203DD1A9B5F7213D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		32A3C942B28014851526329176F878CF /* FlexibleAlignButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F77BB5E679B2FEAFFB7F9EDF0449E878 /* FlexibleAlignButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B2C1C515DF9C6D06833DBA68C1E3656 /* Pods-FlexibleAlignButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A9D55F073C9E0180940A02D45FB97 /* Pods-FlexibleAlignButton_Tests-dummy.m */; };
+		678CBCBFC5F53DF00C0AB58C5F0AF93D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		68EB7D756B027570DBD16B46AF33CB41 /* FlexibleAlignButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35471EEB8D21439650B0E7FD839C7B96 /* FlexibleAlignButton-dummy.m */; };
+		92CDF8CDCD729AE4DC35CBFE553CC697 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B113F11434C641983587C3E81E4A2AB8 /* ReplaceMe.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		95E3ECE3A1E080F1D5D84F719999B41C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		9DDF51AD1D282650B7724F80A03BA6F5 /* Pods-FlexibleAlignButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D2AEFBED92308EADAE58FA1325DAFE /* Pods-FlexibleAlignButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3FD9DAA73B3E04DE4A2FE7F3FFE76C3 /* FlexibleAlignButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A541823B56655F363CC378CAAFDABAF /* FlexibleAlignButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B191AC74AEE03D2F549F2DDCAA61AAED /* FlexibleAlignButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CE2543CE04D2A08B8EF3A683106130 /* FlexibleAlignButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3E891FD2404465F6A12DAD3F894A32B /* Pods-FlexibleAlignButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4858C42452CA4D21C76AC5BACA06E98 /* Pods-FlexibleAlignButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8F7E5E91BCDEB9DE4CE3EA3AF169334 /* Pods-FlexibleAlignButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E21C27AC2148644631321EE1C8831C0 /* Pods-FlexibleAlignButton_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7BF0B2D70659FB292B00FD35664BEA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D732D2DEC40F08FD2284CCBF94D2B30;
+			remoteInfo = FlexibleAlignButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041FB062468C958A580826EC551DF980 /* Pods-FlexibleAlignButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexibleAlignButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		091EF79409AA3D8A9CCF191224F01833 /* Pods-FlexibleAlignButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleAlignButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0E21C27AC2148644631321EE1C8831C0 /* Pods-FlexibleAlignButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexibleAlignButton_Example-dummy.m"; sourceTree = "<group>"; };
+		11543CCC297D58368F4125328F7F1055 /* Pods-FlexibleAlignButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleAlignButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2218FF9952B8CA982C9C6F5382F279DB /* Pods_FlexibleAlignButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlexibleAlignButton_Example.framework; path = "Pods-FlexibleAlignButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3365181474BC2ABC855A3B6CC8D86E72 /* Pods-FlexibleAlignButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleAlignButton_Example-resources.sh"; sourceTree = "<group>"; };
+		35471EEB8D21439650B0E7FD839C7B96 /* FlexibleAlignButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleAlignButton-dummy.m"; sourceTree = "<group>"; };
+		3864D5363EDD3793AF286880108E7E4B /* Pods-FlexibleAlignButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleAlignButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		56D2AEFBED92308EADAE58FA1325DAFE /* Pods-FlexibleAlignButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexibleAlignButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		598D16C5140E80CCEC07575EC4207E54 /* Pods-FlexibleAlignButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleAlignButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B190952633A4EEEF96D5814B2C4FDE5 /* Pods-FlexibleAlignButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FlexibleAlignButton_Example.modulemap"; sourceTree = "<group>"; };
+		5F07F85DA0B525BB725A885BDC14296B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CE2543CE04D2A08B8EF3A683106130 /* FlexibleAlignButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleAlignButton-umbrella.h"; sourceTree = "<group>"; };
+		6A541823B56655F363CC378CAAFDABAF /* FlexibleAlignButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexibleAlignButton.m; path = FlexibleAlignButton/Classes/FlexibleAlignButton.m; sourceTree = "<group>"; };
+		6DDCD3B01A8C8A86F15DB35D5E2C941C /* Pods-FlexibleAlignButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FlexibleAlignButton_Tests.modulemap"; sourceTree = "<group>"; };
+		750DE2DF0006182E686678BEBE6A2C8A /* FlexibleAlignButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexibleAlignButton.framework; path = FlexibleAlignButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D27D6645595A952BE0C5DBFC41C93DF /* Pods-FlexibleAlignButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexibleAlignButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9DD9238DF305BDFA5100914CD9A24AF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7753FFD99B089CAC9D73BACD30D9750 /* Pods_FlexibleAlignButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlexibleAlignButton_Tests.framework; path = "Pods-FlexibleAlignButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B113F11434C641983587C3E81E4A2AB8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FlexibleAlignButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B28E38F3D4ED89073A01FC3B4E8ACF13 /* FlexibleAlignButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleAlignButton-prefix.pch"; sourceTree = "<group>"; };
+		B4858C42452CA4D21C76AC5BACA06E98 /* Pods-FlexibleAlignButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexibleAlignButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC0A9D55F073C9E0180940A02D45FB97 /* Pods-FlexibleAlignButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexibleAlignButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		CC758793BC5E583F75E754F48841F1F1 /* Pods-FlexibleAlignButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleAlignButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D134E8C588DF5C31069FE14BF4EDF0BB /* FlexibleAlignButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FlexibleAlignButton.modulemap; sourceTree = "<group>"; };
+		D6F359D00D40F8821D2CDC991C17A527 /* FlexibleAlignButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleAlignButton.xcconfig; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D916BA9336A32219676056F8840A4CF3 /* Pods-FlexibleAlignButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleAlignButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE905BDFD63A25A661D58039C36E30CA /* Pods-FlexibleAlignButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleAlignButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F77BB5E679B2FEAFFB7F9EDF0449E878 /* FlexibleAlignButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexibleAlignButton.h; path = FlexibleAlignButton/Classes/FlexibleAlignButton.h; sourceTree = "<group>"; };
+		F8513E4CEA32ECF1C2DD47AC443D0C79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A95F4E7C0209DE5631EA684B259804 /* Pods-FlexibleAlignButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleAlignButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		F9CF53C93E1532D95AA3C7E84573A30D /* Pods-FlexibleAlignButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleAlignButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7974E991B95D478118BA1937448DA7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033D3E89FDA15A5A3AD9EFEA72445AF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C00C3FEAA1AB4E18DDCE97347E94777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298182AA6D0C499A203DD1A9B5F7213D /* Foundation.framework in Frameworks */,
+				678CBCBFC5F53DF00C0AB58C5F0AF93D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A89C08C25C92E88F0A331BADBCD783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E3ECE3A1E080F1D5D84F719999B41C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0749880667CC32FD789FA84FD2CAB641 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				270AEF775D40BF83B33FB39EC375A627 /* Pods-FlexibleAlignButton_Example */,
+				4D828258FE9FA8A704FEA9C9CE2B8927 /* Pods-FlexibleAlignButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0EE19349A149429AB3D2D65494615C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				750DE2DF0006182E686678BEBE6A2C8A /* FlexibleAlignButton.framework */,
+				2218FF9952B8CA982C9C6F5382F279DB /* Pods_FlexibleAlignButton_Example.framework */,
+				A7753FFD99B089CAC9D73BACD30D9750 /* Pods_FlexibleAlignButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270AEF775D40BF83B33FB39EC375A627 /* Pods-FlexibleAlignButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5F07F85DA0B525BB725A885BDC14296B /* Info.plist */,
+				5B190952633A4EEEF96D5814B2C4FDE5 /* Pods-FlexibleAlignButton_Example.modulemap */,
+				598D16C5140E80CCEC07575EC4207E54 /* Pods-FlexibleAlignButton_Example-acknowledgements.markdown */,
+				041FB062468C958A580826EC551DF980 /* Pods-FlexibleAlignButton_Example-acknowledgements.plist */,
+				0E21C27AC2148644631321EE1C8831C0 /* Pods-FlexibleAlignButton_Example-dummy.m */,
+				3864D5363EDD3793AF286880108E7E4B /* Pods-FlexibleAlignButton_Example-frameworks.sh */,
+				3365181474BC2ABC855A3B6CC8D86E72 /* Pods-FlexibleAlignButton_Example-resources.sh */,
+				B4858C42452CA4D21C76AC5BACA06E98 /* Pods-FlexibleAlignButton_Example-umbrella.h */,
+				CC758793BC5E583F75E754F48841F1F1 /* Pods-FlexibleAlignButton_Example.debug.xcconfig */,
+				11543CCC297D58368F4125328F7F1055 /* Pods-FlexibleAlignButton_Example.release.xcconfig */,
+			);
+			name = "Pods-FlexibleAlignButton_Example";
+			path = "Target Support Files/Pods-FlexibleAlignButton_Example";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4D828258FE9FA8A704FEA9C9CE2B8927 /* Pods-FlexibleAlignButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9238DF305BDFA5100914CD9A24AF0 /* Info.plist */,
+				6DDCD3B01A8C8A86F15DB35D5E2C941C /* Pods-FlexibleAlignButton_Tests.modulemap */,
+				D916BA9336A32219676056F8840A4CF3 /* Pods-FlexibleAlignButton_Tests-acknowledgements.markdown */,
+				9D27D6645595A952BE0C5DBFC41C93DF /* Pods-FlexibleAlignButton_Tests-acknowledgements.plist */,
+				BC0A9D55F073C9E0180940A02D45FB97 /* Pods-FlexibleAlignButton_Tests-dummy.m */,
+				DE905BDFD63A25A661D58039C36E30CA /* Pods-FlexibleAlignButton_Tests-frameworks.sh */,
+				F9A95F4E7C0209DE5631EA684B259804 /* Pods-FlexibleAlignButton_Tests-resources.sh */,
+				56D2AEFBED92308EADAE58FA1325DAFE /* Pods-FlexibleAlignButton_Tests-umbrella.h */,
+				F9CF53C93E1532D95AA3C7E84573A30D /* Pods-FlexibleAlignButton_Tests.debug.xcconfig */,
+				091EF79409AA3D8A9CCF191224F01833 /* Pods-FlexibleAlignButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-FlexibleAlignButton_Tests";
+			path = "Target Support Files/Pods-FlexibleAlignButton_Tests";
+			sourceTree = "<group>";
+		};
+		63EF7B014F77ACBCCDA9D0D859009B60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D134E8C588DF5C31069FE14BF4EDF0BB /* FlexibleAlignButton.modulemap */,
+				D6F359D00D40F8821D2CDC991C17A527 /* FlexibleAlignButton.xcconfig */,
+				35471EEB8D21439650B0E7FD839C7B96 /* FlexibleAlignButton-dummy.m */,
+				B28E38F3D4ED89073A01FC3B4E8ACF13 /* FlexibleAlignButton-prefix.pch */,
+				65CE2543CE04D2A08B8EF3A683106130 /* FlexibleAlignButton-umbrella.h */,
+				F8513E4CEA32ECF1C2DD47AC443D0C79 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FlexibleAlignButton";
+			sourceTree = "<group>";
+		};
+		6FCDBCF4B398118448C6DFFD35CBAE4F /* FlexibleAlignButton */ = {
+			isa = PBXGroup;
+			children = (
+				F77BB5E679B2FEAFFB7F9EDF0449E878 /* FlexibleAlignButton.h */,
+				6A541823B56655F363CC378CAAFDABAF /* FlexibleAlignButton.m */,
+				B113F11434C641983587C3E81E4A2AB8 /* ReplaceMe.m */,
+				63EF7B014F77ACBCCDA9D0D859009B60 /* Support Files */,
+			);
+			name = FlexibleAlignButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A329BFD3EDE8A17A1EDB511064FF7C3B /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0EE19349A149429AB3D2D65494615C6B /* Products */,
+				0749880667CC32FD789FA84FD2CAB641 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A329BFD3EDE8A17A1EDB511064FF7C3B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FCDBCF4B398118448C6DFFD35CBAE4F /* FlexibleAlignButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		576EFF00DF3D393BDE1054A0372967E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDF51AD1D282650B7724F80A03BA6F5 /* Pods-FlexibleAlignButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A518B098E9B09E7F3E2DC8368B8FB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B191AC74AEE03D2F549F2DDCAA61AAED /* FlexibleAlignButton-umbrella.h in Headers */,
+				32A3C942B28014851526329176F878CF /* FlexibleAlignButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E24BFF5D67285183E1721B518E7E20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E891FD2404465F6A12DAD3F894A32B /* Pods-FlexibleAlignButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D732D2DEC40F08FD2284CCBF94D2B30 /* FlexibleAlignButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A20A027B8A928EF9C9A6B31EFD4F6CB /* Build configuration list for PBXNativeTarget "FlexibleAlignButton" */;
+			buildPhases = (
+				C6D5D192652420CA6742DFA90451C2AE /* Sources */,
+				9C00C3FEAA1AB4E18DDCE97347E94777 /* Frameworks */,
+				78A518B098E9B09E7F3E2DC8368B8FB7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexibleAlignButton;
+			productName = FlexibleAlignButton;
+			productReference = 750DE2DF0006182E686678BEBE6A2C8A /* FlexibleAlignButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEBFDD6374EEFB41B618A28CA0AE2056 /* Pods-FlexibleAlignButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F560D82C18BBBF6FC4BA9DCFFBBE97C /* Build configuration list for PBXNativeTarget "Pods-FlexibleAlignButton_Tests" */;
+			buildPhases = (
+				40DD45BE82F6C1E2F455B3F462D623C1 /* Sources */,
+				7974E991B95D478118BA1937448DA7F9 /* Frameworks */,
+				576EFF00DF3D393BDE1054A0372967E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FlexibleAlignButton_Tests";
+			productName = "Pods-FlexibleAlignButton_Tests";
+			productReference = A7753FFD99B089CAC9D73BACD30D9750 /* Pods_FlexibleAlignButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBF70D0E7D7C0863D42F39D170778BE6 /* Pods-FlexibleAlignButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44051B78399C9D65144B86C5439CE385 /* Build configuration list for PBXNativeTarget "Pods-FlexibleAlignButton_Example" */;
+			buildPhases = (
+				44D915CCF5C556AFD066428CCC4F5A49 /* Sources */,
+				F0A89C08C25C92E88F0A331BADBCD783 /* Frameworks */,
+				E8E24BFF5D67285183E1721B518E7E20 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D547B01948FB42092E1C2DC5EB7ACE /* PBXTargetDependency */,
+			);
+			name = "Pods-FlexibleAlignButton_Example";
+			productName = "Pods-FlexibleAlignButton_Example";
+			productReference = 2218FF9952B8CA982C9C6F5382F279DB /* Pods_FlexibleAlignButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0EE19349A149429AB3D2D65494615C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D732D2DEC40F08FD2284CCBF94D2B30 /* FlexibleAlignButton */,
+				DBF70D0E7D7C0863D42F39D170778BE6 /* Pods-FlexibleAlignButton_Example */,
+				BEBFDD6374EEFB41B618A28CA0AE2056 /* Pods-FlexibleAlignButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40DD45BE82F6C1E2F455B3F462D623C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2C1C515DF9C6D06833DBA68C1E3656 /* Pods-FlexibleAlignButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D915CCF5C556AFD066428CCC4F5A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F7E5E91BCDEB9DE4CE3EA3AF169334 /* Pods-FlexibleAlignButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D5D192652420CA6742DFA90451C2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EB7D756B027570DBD16B46AF33CB41 /* FlexibleAlignButton-dummy.m in Sources */,
+				A3FD9DAA73B3E04DE4A2FE7F3FFE76C3 /* FlexibleAlignButton.m in Sources */,
+				92CDF8CDCD729AE4DC35CBFE553CC697 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0D547B01948FB42092E1C2DC5EB7ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexibleAlignButton;
+			target = 2D732D2DEC40F08FD2284CCBF94D2B30 /* FlexibleAlignButton */;
+			targetProxy = E7BF0B2D70659FB292B00FD35664BEA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39E2B0E5408B532A96D4EB625D66F796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11543CCC297D58368F4125328F7F1055 /* Pods-FlexibleAlignButton_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleAlignButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleAlignButton_Example/Pods-FlexibleAlignButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlexibleAlignButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B8558773A72EA55FC1D53152F021872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F359D00D40F8821D2CDC991C17A527 /* FlexibleAlignButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FlexibleAlignButton/FlexibleAlignButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexibleAlignButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlexibleAlignButton/FlexibleAlignButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FlexibleAlignButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C046EE5DC11E0A969535E41FE6B6CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC758793BC5E583F75E754F48841F1F1 /* Pods-FlexibleAlignButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleAlignButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleAlignButton_Example/Pods-FlexibleAlignButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlexibleAlignButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98234553D54950A544173F31CDD049FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F359D00D40F8821D2CDC991C17A527 /* FlexibleAlignButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FlexibleAlignButton/FlexibleAlignButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexibleAlignButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlexibleAlignButton/FlexibleAlignButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FlexibleAlignButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3556982EA35A88E78EED8705FB25123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091EF79409AA3D8A9CCF191224F01833 /* Pods-FlexibleAlignButton_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleAlignButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleAlignButton_Tests/Pods-FlexibleAlignButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlexibleAlignButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEB8579B7F620C682B2F37A5B4399D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CF53C93E1532D95AA3C7E84573A30D /* Pods-FlexibleAlignButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleAlignButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleAlignButton_Tests/Pods-FlexibleAlignButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlexibleAlignButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A20A027B8A928EF9C9A6B31EFD4F6CB /* Build configuration list for PBXNativeTarget "FlexibleAlignButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98234553D54950A544173F31CDD049FC /* Debug */,
+				3B8558773A72EA55FC1D53152F021872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44051B78399C9D65144B86C5439CE385 /* Build configuration list for PBXNativeTarget "Pods-FlexibleAlignButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C046EE5DC11E0A969535E41FE6B6CA4 /* Debug */,
+				39E2B0E5408B532A96D4EB625D66F796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F560D82C18BBBF6FC4BA9DCFFBBE97C /* Build configuration list for PBXNativeTarget "Pods-FlexibleAlignButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB8579B7F620C682B2F37A5B4399D37 /* Debug */,
+				A3556982EA35A88E78EED8705FB25123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

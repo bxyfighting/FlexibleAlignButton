@@ -1,0 +1,6 @@
+framework module FlexibleAlignButton {
+  umbrella header "FlexibleAlignButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

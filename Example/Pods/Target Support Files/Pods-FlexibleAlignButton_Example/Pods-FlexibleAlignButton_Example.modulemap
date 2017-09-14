@@ -1,0 +1,6 @@
+framework module Pods_FlexibleAlignButton_Example {
+  umbrella header "Pods-FlexibleAlignButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
